@@ -29,7 +29,6 @@ public class Task13Application {
 		double b = in.nextDouble();
 		System.out.println("Введите тип операции: " + calculator.getSupportedOperations());
 		String operationType = in.next();
-
 		calculator.calc(operationType, a, b);
 		return true;
 	}
